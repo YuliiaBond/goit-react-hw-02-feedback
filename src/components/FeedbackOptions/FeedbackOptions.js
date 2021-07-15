@@ -7,6 +7,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
         <div className={style.btnList}>
             <button
+                className={style.button}
                 type="button"
                 onClick={onLeaveFeedback}
                 name="good"
@@ -16,6 +17,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
             </button>
 
             <button
+                className={style.button}
                 type="button"
                 onClick={onLeaveFeedback}
                 name="neutral"
@@ -25,6 +27,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
             </button>
 
             <button
+                className={style.button}
                 type="button"
                 onClick={onLeaveFeedback}
                 name="bad"
